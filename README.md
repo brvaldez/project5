@@ -4,7 +4,11 @@ A React + Vite movie browser that allows users to explore movies, filter and sor
 The application also includes **Firebase Authentication** for secure user login.
 
 ---
+## Live Link
 
+https://bymovieapp.netlify.app/
+
+---
 ##  Features
 
 - Browse and explore movies
@@ -83,18 +87,6 @@ VITE_FIREBASE_STORAGE_BUCKET=your_project.appspot.com
 VITE_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
 VITE_FIREBASE_APP_ID=your_app_id
 ```
-
-
-
-##  Deployment
-
-The project can be deployed using platforms such as:
-
-- Netlify
-- Vercel
-- GitHub Pages
-
-
 ---
 
 
