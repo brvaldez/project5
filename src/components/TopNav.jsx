@@ -7,9 +7,9 @@ const TopNav = () => {
   const navigate = useNavigate();
 
   const handleLogout = async () => {
-    await logout();
-    toast.success("Logged out successfully");
     navigate("/");
+    await logout();
+    toast.success("Logged out successfully");  
   };
 
   const initials = user?.displayName
