@@ -75,13 +75,14 @@ When you download or clone the repository, you must create a `.env` file in the 
 1. Copy the file `.env.example`
 2. Rename it to `.env`
 3. Add the Firebase keys inside the `.env` file like this:
-
+```
 VITE_FIREBASE_API_KEY=your_api_key
 VITE_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
 VITE_FIREBASE_PROJECT_ID=your_project_id
 VITE_FIREBASE_STORAGE_BUCKET=your_project.appspot.com
 VITE_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
 VITE_FIREBASE_APP_ID=your_app_id
+```
 
 
 
